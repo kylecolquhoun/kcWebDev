@@ -1,0 +1,189 @@
+html, body{
+	padding:0;
+	margin:0;
+background-color: #e6e6e6;
+font-family: 'Lato', sans-serif;
+}
+.banner{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color:#FF5964;
+	padding-left:30px;
+	font-size: 1em;
+	color: #fff;
+}
+
+.links{
+  display:flex;
+  background-color:#333;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  align-items:center;
+  text-align:center;
+
+}
+
+.links  a{
+ color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    flex:10%;
+
+     
+  
+}
+
+a:hover{
+  background-color:#ddd;
+}
+
+.aboutheading{
+	 display:flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  align-items:center;
+  text-align:center;
+
+}
+.aboutheading h2{
+	font-size: 2em;
+	padding: 20px;
+}
+.cardholders{
+  display:flex;
+ 
+  flex-flow:row wrap;
+  justify-content:space-around;
+  align-items:baseline;
+  padding-bottom: 20px;
+  
+}
+.cardholders .card1{
+overflow:hidden;
+ max-width:400px;
+  width:100%;
+  padding: 0px;
+  text-align:center;
+  align-content: center;
+
+}
+.experience{
+  width:250px;
+  height:250px;
+  background-color:#35A7FF;
+  border:20px solid #38618C;
+  border-radius:50%;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content:center;
+  align-content:center;
+  color: #fff;
+  
+}
+.experience h3{
+ 
+  font-size:3em;
+}
+.pageseperator{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	align-content: center;
+	background-color: #FFC914;
+  box-shadow: inset 
+2px 4px 4px 2px rgba(0, 0, 0, .1);
+
+}
+.pageseperator h1{
+	padding:40px;
+}
+.whatdo{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	align-content: center;
+	text-align: center;
+
+
+}
+.whatdo h1{
+	padding: 40px;
+}
+.whatdo h2{
+	padding: 40px;
+
+}
+
+.pageseperator2{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+  background-color: #FF5964;
+  box-shadow: inset 
+2px 4px 4px 2px rgba(0, 0, 0, .1);
+}
+.pageseperator2 h1{
+  padding:40px;
+}
+.skillsmenu{
+ display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-content: center;
+  text-align: center;
+  background-color:#e6e6e6;
+
+}
+.skillsmenu .skill1{
+  width:500px;
+  background-color:#e6e6e6;
+  padding:20px;
+
+ 
+}
+.skill1 h2{
+  text-align:center;
+}
+.skill1 .skillbar{
+  width:500px;
+  height:25px;
+  border-radius:5px;
+  background-color:#999999;
+  
+}
+.skillbar div{
+border-radius:4.5px;
+  
+  height:100%;
+  color:#fff;
+}
+
+.skillsmenu div:nth-child(1) #skillbar{
+  background-color:#44cc0e;
+}
+
+.skillsmenu div:nth-child(2) #skillbar{
+  background-color:#44cc0e;
+}
+.skillsmenu div:nth-child(4) #skillbar{
+  background-color:#e2db0d;
+}
+@media only screen and (max-width: 500px){
+.links{
+	flex-direction: column;
+	
+	
+}
+.links a{
+	width: 100%;
+}
+.banner{
+	justify-content: center;
+}
+.cardholders{
+	flex-direction: column;
+}
+}
